@@ -2,9 +2,24 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+
+/* Banner image, 850px width 220px height */
+:nth-child(5) .header_title {
+     background: url("http://a.pomf.se/pjisfp.PNG") no-repeat scroll center center / 100% 100% rgba(255, 255, 255, 0);
+}
+ 
+:nth-child(5) .header_title:before {
+     content: "Tangfastic";
+     font-family: Arial;
+}
+
 body {
      font-family: Open Sans;
      font-size: 13px;
+     background-attachment: fixed ! important;
+     background-color: #f0f0f0 ! important;
+     background-image: url("https://i.imgur.com/d1x2ZZ5.jpg") ! important;
+     background-repeat: repeat-x ! important;
 }
 
 strong {
@@ -14,7 +29,9 @@ strong {
 * {
      text-decoration: none ! important;
 }
-
+:focus{
+     outline: none;
+}
 a {
      color: #ffffff;
 }
@@ -32,6 +49,15 @@ a:hover {
      color: #000000;
      line-height: 2.5em;
      text-decoration: none ! important;
+}
+
+.status_selected:hover {
+    
+}
+
+
+.status_selected a, .status_not_selected a {
+     display: block;
 }
 
 .status_not_selected a:hover {
@@ -57,18 +83,10 @@ a:hover {
      line-height: 2.5em;
 }
 
-.status_selected:hover {
-    
-}
-
-.status_selected a, .status_not_selected a {
-     display: block;
-}
-
 #list_surround {
      background: none no-repeat scroll 0px 0px rgba(143, 143, 143, 0.77);
      height: 100%;
-     margin: 240px auto 20px;
+     margin: 240px auto 0;
      width: 850px;
 }
 
@@ -98,27 +116,22 @@ a:hover {
 
 #list_surround .header_cw {
      background: url("http://i.imgur.com/uuWODfe.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
-     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 #list_surround .header_completed {
      background: url("http://i.imgur.com/n9e38rQ.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
-     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 #list_surround .header_onhold {
      background: url("http://i.imgur.com/2nFyk8R.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
-     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 #list_surround .header_ptw {
      background: url("http://i.imgur.com/av1NSs6.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
-     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 #list_surround .header_dropped {
      background: url("http://i.imgur.com/gZAmz5H.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
-     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.21);
 }
 
 #list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
@@ -222,22 +235,17 @@ tr:hover .td2, tr:hover .td1 {
 }
 
 #searchBox {
-     background: none repeat scroll 0px 0px #ffffff ! important;
-     border-radius: 5px;
      border-style: hidden;
-     box-shadow: 0px 0px 3px #e2e2e2;
-     color: #aaaaaa;
+     color: rgb(28, 28, 28);
      display: block ! important;
-     font-family: Consolas,Arial,sans-serif ! important;
-     font-size: 10px;
+     font-family: Open Sans;
      height: 20px ! important;
      letter-spacing: 0.1em;
      padding-left: 10px;
      padding-right: 10px;
      right: 6px ! important;
      text-align: center ! important;
-     text-transform: uppercase ! important;
-     top: 8px ! important;
+     top: 5px ! important;
      width: 220px ! important;
 }
 
@@ -246,8 +254,8 @@ tr:hover .td2, tr:hover .td1 {
 }
 
 #mal\_control\_strip {
-     background-color: #8f8f8f ! important;
-     background-image: url("http://i.imgur.com/fv1Pc.png") ! important;
+     background-color: rgba(0, 0, 0, 0.7) ! important;
+     background-image: url("") ! important; /* http://i.imgur.com/fv1Pc.png */
 }
 
 #mal_cs_powered a {
@@ -255,7 +263,7 @@ tr:hover .td2, tr:hover .td1 {
 }
 
 #copyright {
-     background: none repeat scroll 0% 0% #5c8ae6;
+     background: none repeat scroll 0% 0% #C83931;
      color: #ffffff;
      line-height: 2.5em;
      margin-top: 0px ! important;
@@ -289,24 +297,6 @@ tr:hover .td2, tr:hover .td1 {
      width: 150px;
 }
 
- 
-body {
-     background-attachment: fixed ! important;
-     background-color: #f0f0f0 ! important;
-     background-image: url("https://i.imgur.com/d1x2ZZ5.jpg") ! important;
-     background-repeat: repeat-x ! important;
-}
- 
-
-/* Banner image, 850px width 220px height */
-:nth-child(5) .header_title {
-     background: url("http://a.pomf.se/pjisfp.PNG") no-repeat scroll center center / 100% 100% rgba(255, 255, 255, 0);
-}
- 
-:nth-child(5) .header_title:before {
-     content: "Tangfastic";
-     font-family: Arial;
-}
 :hover + .hide {
     background-position: center center !important;
     background-repeat: no-repeat !important;
