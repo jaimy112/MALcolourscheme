@@ -29,9 +29,21 @@ strong {
 * {
      text-decoration: none ! important;
 }
+
 :focus{
      outline: none;
 }
+
+::-moz-selection {
+       background-color: #C83931;
+       color: white;
+}
+
+::selection {
+       background-color: #C83931;
+       color: white;
+}
+
 a {
      color: #ffffff;
 }
@@ -86,7 +98,7 @@ a:hover {
 #list_surround {
      background: none no-repeat scroll 0px 0px rgba(143, 143, 143, 0.77);
      height: 100%;
-     margin: 240px auto 0;
+     margin: 280px auto 0;
      width: 850px;
 }
 
@@ -256,6 +268,9 @@ tr:hover .td2, tr:hover .td1 {
 #mal\_control\_strip {
      background-color: rgba(0, 0, 0, 0.7) ! important;
      background-image: url("") ! important; /* http://i.imgur.com/fv1Pc.png */
+     position: fixed;
+     top: 0;
+     z-index: 5;
 }
 
 #mal_cs_powered a {
@@ -276,6 +291,7 @@ tr:hover .td2, tr:hover .td1 {
      background-repeat: no-repeat;
      bottom: 5px;
      color: rgba(0, 0, 0, 0) ! important;
+     content: "Reskin by Tangfastic";
      display: block;
      font-size: 0px ! important;
      height: 5px;

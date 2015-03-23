@@ -1,0 +1,339 @@
+@import url("https://f3a7a1b1655de4833e3bed3b1779c5a9d85839f8.googledrive.com/host/0BxjwQr0BBXs-aDYxM2JlaFM2bnM");
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/* Banner image, 850px width 220px height */
+:nth-child(5) .header_title {
+     background: url("http://a.pomf.se/pjisfp.PNG") no-repeat scroll center center / 100% 100% rgba(255, 255, 255, 0);
+}
+ 
+:nth-child(5) .header_title:before {
+     content: "Tangfastic";
+     font-family: Arial;
+}
+
+body {
+     font-family: Open Sans;
+     font-size: 13px;
+     background-attachment: fixed ! important;
+     background-color: #f0f0f0 ! important;
+     background-image: url("https://i.imgur.com/d1x2ZZ5.jpg") ! important;
+     background-repeat: repeat-x ! important;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+strong {
+     font-weight: normal;
+}
+
+* {
+     text-decoration: none ! important;
+}
+
+:focus{
+     outline: none;
+}
+
+::-moz-selection {
+       background-color: #C83931;
+       color: white;
+}
+
+::selection {
+       background-color: #C83931;
+       color: white;
+}
+.status_selected {
+  background-color: rgb(200, 57, 49);
+  border-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  line-height: 2.5em;
+  text-decoration: none ! important;
+}
+
+.status_selected a {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.status_selected a, .status_not_selected a {
+     display: block;
+}
+
+.status_not_selected a:hover {
+     border-bottom: 0px none ! important;
+}
+
+.status_selected a:hover {
+     border-bottom: 0px none ! important;
+}
+
+.status_not_selected:hover {
+     box-shadow: 0px -5px 0px 0px #C83931 inset;
+     transition: all 0.2s ease 0s;
+}
+
+.status_not_selected {
+     background: none repeat scroll 0% 0% white;
+     border-bottom: 0px none ! important;
+     color: white;
+     line-height: 2.5em;
+}
+
+.td1, .td2 {
+  border-color: rgb(255, 255, 255);
+  border-width: 0px 0px 1px ! important;
+  color: black;
+}
+
+.table_header {
+  background: none repeat scroll 0% 0% rgb(200, 57, 49);
+  border-style: solid;
+  line-height: 1.8em;
+  padding: 4px;
+}
+
+.table_header a{
+  color: rgb(255, 255, 255);
+}
+
+.table_header strong{
+	color: rgb(255,255,255);
+}
+.table_header strong a{
+  color: rgb(255, 255, 255);
+}
+
+.td1 {
+  background: none repeat scroll 0% 0% rgb(255, 255, 255);
+  line-height: 20px;
+  padding: 4px;
+}
+.td2 {
+  background: none repeat scroll 0% 0% rgb(249, 249, 249);;
+  line-height: 20px;
+  padding: 4px;
+}
+.td1 a {
+  color: rgb(0, 0, 0);
+}
+
+.td2 a {
+  color: rgb(0, 0, 0);
+}
+
+#list_surround {
+     background: none no-repeat scroll 0px 0px rgb(222, 222, 222);
+     height: 100%;
+     margin: 280px auto 0;
+     width: 850px;
+}
+
+:nth-child(5) .header_title {
+     border-color: #f5f5f5;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+     border-width: 2px;
+     height: 220px;
+     margin-left: -28px;
+     position: absolute;
+     top: 60px;
+     width: 850px;
+}
+
+:nth-child(5) .header_title:before {
+     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3);
+     color: #f5f5f5;
+     display: block;
+     font-size: 65px ! important;
+     position: relative;
+     text-align: center;
+     text-shadow: 1px 2px 6px #000000;
+     top: 137px;
+     padding-bottom: 8px;
+}
+
+#list_surround .header_cw {
+     background: url("http://i.imgur.com/uuWODfe.png") no-repeat scroll center center rgb(249, 249, 249);
+}
+
+#list_surround .header_completed {
+     background: url("http://i.imgur.com/n9e38rQ.png") no-repeat scroll center center rgb(249, 249, 249);
+}
+
+#list_surround .header_onhold {
+     background: url("http://i.imgur.com/2nFyk8R.png") no-repeat scroll center center rgb(249, 249, 249);
+}
+
+#list_surround .header_ptw {
+     background: url("http://i.imgur.com/av1NSs6.png") no-repeat scroll center center rgb(249, 249, 249);
+}
+
+#list_surround .header_dropped {
+     background: url("http://i.imgur.com/gZAmz5H.png") no-repeat scroll center center rgb(249, 249, 249);
+}
+
+#list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
+     margin-left: 0px;
+     margin-bottom: 8px;
+     padding: 28px;
+}
+
+#list_surround .header_title span {
+     color: #000000;
+     display: none;
+     font-size: 1px;
+}
+
+#list_surround .header_title .thickbox {
+     display: none;
+}
+
+#list_surround br {
+     display: none;
+}
+
+.borderRBL {
+     color: #cccccc ! important;
+}
+
+.borderRBL br {
+     display: block ! important;
+}
+
+#list_surround .animetitle + small {
+     background: none repeat scroll 0% 0% #C83931;
+     font-size: 13px;
+     margin-left: 10px;
+     opacity: 1;
+     padding: 2px 5px;
+     text-transform: lowercase;
+     color: white;
+}
+
+.td1, .td2, .table_header {
+     border-color: #ffffff;
+     border-width: 0px 0px 1px ! important;
+}
+
+tr:hover td.td1 small, tr:hover td.td2 small {
+     font-size: 13px;
+     opacity: 1;
+}
+
+.td1 small, .td2 small {
+     font-size: 13px;
+     opacity: 0;
+}
+
+tr:hover .td1, tr:hover .td2 {
+     background: none repeat scroll 0% 0% rgb(232, 234, 239);
+}
+
+#list_surround .category_totals {
+     background-color: rgba(0, 0, 0, 0.7);
+     color: #ffffff;
+     line-height: 25px;
+     margin-top: 15px;
+     text-align: center;
+}
+
+#list_surround #grand_totals {
+     background-color: #5c8ae6;
+     color: #ffffff;
+     display: none;
+     line-height: 25px;
+     text-align: center;
+}
+
+#search {
+     bottom: 50px ! important;
+     left: 100px ! important;
+}
+
+#searchBox {
+     border-style: hidden;
+     color: rgb(28, 28, 28);
+     display: block ! important;
+     font-family: Open Sans;
+     height: 20px ! important;
+     letter-spacing: 0.1em;
+     padding-left: 10px;
+     padding-right: 10px;
+     right: 6px ! important;
+     text-align: center ! important;
+     top: 5px ! important;
+     width: 220px ! important;
+}
+
+#searchListButton {
+     display: none;
+}
+
+#mal\_control\_strip {
+     background-color: rgba(0, 0, 0, 0.7) ! important;
+     background-image: url("") ! important; /* http://i.imgur.com/fv1Pc.png */
+     position: fixed;
+     top: 0;
+     z-index: 5;
+}
+
+#mal_cs_powered a {
+     display: none;
+}
+
+#copyright {
+     background: none repeat scroll 0% 0% #C83931;
+     color: #ffffff;
+     line-height: 2.5em;
+     margin-top: 0px ! important;
+}
+
+#copyright:after {
+     background-color: #333333;
+     background-image: url("http://db.tt/uBvPkq8g");
+     background-position: center center;
+     background-repeat: no-repeat;
+     bottom: 5px;
+     color: rgba(0, 0, 0, 0) ! important;
+     content: "Reskin by Tangfastic";
+     display: block;
+     font-size: 0px ! important;
+     height: 5px;
+     padding-bottom: 20px;
+     position: fixed;
+     right: 5px;
+     transition: all 0.15s ease-out 0s;
+     width: 25px;
+}
+
+#copyright:hover:after {
+     background-image: none;
+     color: #e5e5e5 ! important;
+     font-size: 13px ! important;
+     height: auto ! important;
+     padding: 5px;
+     text-align: justify ! important;
+     transition: all 0.15s ease-in 0s;
+     width: 150px;
+}
+
+:hover + .hide {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
+    display: block !important;
+    height: 350px;
+    left: 10px;
+    padding-bottom: 0;
+    position: fixed;
+    top: 160px;
+    width: 226px;
+}
